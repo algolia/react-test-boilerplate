@@ -1,0 +1,21 @@
+{
+  "name": "react-test-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js --compilers js:babel/register --reporter spec"
+  },
+  "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "expect": "^1.12.2",
+    "mocha": "^2.3.3",
+    "react": "^0.14.0",
+    "react-addons-test-utils": "^0.14.0"
+  },
+  "dependencies": {
+    "react": "^0.14.0"
+  }
+}
