@@ -1,6 +1,7 @@
 {
   "name": "react-test-boilerplate",
   "version": "1.0.0",
+  "description": "Companion project for our React unit testing blog post",
   "private": true,
   "main": "index.js",
   "scripts": {
