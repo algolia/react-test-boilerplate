@@ -4,8 +4,8 @@ import {createRenderer} from 'react-addons-test-utils';
 import expectJSX from 'expect-jsx';
 expect.extend(expectJSX);
 
-import Button from './Button.js';
-import Label from './Label.js';
+import Button from '../Button.js';
+import Label from '../Label.js';
 
 describe('Button', () => {
   it('works', () => {
@@ -16,7 +16,7 @@ describe('Button', () => {
     expect(actualElement).toEqualJSX(expectedElement);
   });
 
-  it('clicks', () => {
+  it('has a click property', () => {
     let renderer = createRenderer();
     let hasClicked = false;
     let click = () => hasClicked = true;
