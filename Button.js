@@ -3,7 +3,7 @@ import Label from './Label';
 
 class Button extends React.Component {
   render() {
-    return <div><Label name={this.props.name} /></div>;
+    return <div onClick={this.props.click}><Label name={this.props.name} /></div>;
   }
 }
 

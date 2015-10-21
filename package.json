@@ -1,16 +1,18 @@
 {
   "name": "react-test-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js --compilers js:babel/register --reporter spec"
+    "test": "mocha test.js --compilers js:babel/register",
+    "test:watch": "mocha test.js --compilers js:babel/register --watch --reporter min"
   },
   "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
   "license": "MIT",
   "devDependencies": {
     "babel": "^5.8.23",
     "expect": "^1.12.2",
+    "expect-jsx": "^2.0.0",
     "mocha": "^2.3.3",
     "react": "^0.14.0",
     "react-addons-test-utils": "^0.14.0"
